@@ -1,3 +1,4 @@
+
 class Dog
 
   def name=(dog_name)
@@ -11,4 +12,17 @@ class Dog
   def bark
     puts "woof!"
   end
+
 end
+
+lassie = Dog.new
+lassie.name="Lassie"
+puts lassie.name
+lassie.bark
+fido = Dog.new
+fido.name="Fifi"
+puts fido.name
+
+fido.name="Fido"
+puts fido.name
+fido.bark
